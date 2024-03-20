@@ -1,0 +1,70 @@
+header{
+    color: mediumorchid;
+    text-align: center;
+    font-size: 20px;
+}
+
+nav{
+    width: 15%;
+    float: left;
+}
+
+nav a{
+    background-color: rgba(186, 85, 211, 0.514);
+    border-radius: 20px 0 10px 0 ;
+    color: red;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover{
+    background-color: rgba(120,13,134,0.5606617647058824);
+    color: red;
+}
+
+section{
+    float: right;
+    width: 75%;
+    color: blue;
+    border-radius: 5px;
+    box-shadow: 1px 0 4px rgba(45, 48, 39, 0.3);
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+#section1{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(120,13,134,0.5606617647058824) 43%, rgba(0,212,255,1) 100%);
+}
+
+#section2{
+    background: rgb(2,0,36);
+    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(120,13,134,0.5606617647058824) 43%, rgba(0,212,255,1) 100%);
+}
+
+#section3{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(47,13,134,0.5606617647058824) 45%, rgba(0,212,255,1) 100%);
+}
+
+#section4{
+    background: rgb(2,0,36);
+    background: linear-gradient(270deg, rgba(2,0,36,1) 0%, rgba(120,13,134,0.5606617647058824) 43%, rgba(0,212,255,1) 100%);
+}
+
+aside{
+    float: right;
+    width: 30%;
+    padding: 5px;
+    margin: 5px;
+    font-style: italic;
+    color: blue;
+    box-shadow: inset 5px 0 5px 0 darkmagenta;
+}
+
+footer a{
+    text-decoration: none;
+    float: left;
+}
